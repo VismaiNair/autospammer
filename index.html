@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+  <head>
+    <meta charset = "utf-16"/>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0"/>
+    <link rel = "stylesheet" type = "text/css" href = "style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src = "script.js">
+    </script>
+    <title>
+      Auto-Spammer
+    </title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Auto-Spammer</h1>
+      </header>
+      <section>
+        <input type = "text" id = "spamText" placeholder = "Enter the words to spam"/>
+        <br/> <br/>
+        <input type = "number" id = "spamTimes" placeholder = "How many times should it spam?"/>
+      </section>
+      <section>
+        <br/>
+        <button id = "startSpamming" onclick = "spam()" type = "button">Start Spamming</button>
+      </section>
+      
+      <section>
+        <br/>
+        <button type = "button" onclick = "window.location.href = 'why-spam.html';">
+          Why use the Auto-Spammer?
+        </button>
+      </section>
+      <br/>
+      <section id = "output">
+      </section>
+    </main>
+  </body>
+</html>
