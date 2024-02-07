@@ -1,0 +1,30 @@
+* {
+  font-family: "Raleway", "Tahoma", "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-image: linear-gradient(rgb(12, 12, 
+   12), rgb(28, 28, 28));
+}
+
+input {
+  width: 80%;
+  padding: 1% 1% 1% 1%;
+  border-radius: 9px 3px 9px 3px;
+  border: none;
+}
+button {
+  padding: 2% 2% 2% 2%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 102, 0);
+  border: none;
+  border-radius: 9px 3px 9px 3px;
+}
+
+input {
+  color: #000000;
+}
