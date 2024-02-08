@@ -14,7 +14,9 @@ function spam() {
   }
   else {
     for (let i = 0; i < spamming.times; i++) {
-      spamming.output.innerHTML += spamming.text;
+      spamming.output.innerHTML = spamming.text;
     }
   }
+  if (spamming.text == "Skibidi" && spamming.times == "69")
+    spamming.output.innerHTML = "Sticking out your gyaat for the rizzler; You're so skibidi; You're so Fanum Tax; I just wanna be your sigma; Freaking come here; Give me ohio;";
 }
